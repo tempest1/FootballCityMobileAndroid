@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3"
+    >
+    <include layout="@layout/title_normal"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_gray"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="请选择年龄区间"
+            />
+
+        <FrameLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/frameLayout">
+
+
+            <TextView
+
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/rectangle_age"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView17" />
+
+            <LinearLayout
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center" >
+
+                    <TextView
+                        android:id="@+id/age1"
+
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:background="@drawable/oval_blue"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal" />
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="left|bottom" >
+                <TextView
+                    android:id="@+id/age2"
+
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:background="@drawable/oval_while"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal" />
+                    </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="left|bottom" >
+                    <TextView
+                        android:id="@+id/age3"
+
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:background="@drawable/oval_while"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal" />
+                    </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="left|bottom" >
+                    <TextView
+                        android:id="@+id/age4"
+
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4"
+                        android:background="@drawable/oval_while"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal" />
+                    </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:text="4"
+
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="left|bottom" >
+                    <TextView
+                        android:id="@+id/age5"
+
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:background="@drawable/oval_while"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal" />
+                    </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="left|bottom" >
+                    <TextView
+                        android:id="@+id/age6"
+
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6"
+                        android:background="@drawable/oval_while"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center_horizontal" />
+                    </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btn_age"
+            android:background="@drawable/rectangle_4"
+            android:text="十八岁以下"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_gray"
+        android:layout_marginTop="15dp"
+
+        >
+
+        <TextView
+            android:text="选择活动时间"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:background="@drawable/rectangle_8"
+            android:id="@+id/linearLayout"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+
+            <RelativeLayout
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:background="@drawable/rectangle_3"
+                android:layout_below="@+id/linearLayout"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                >
+
+                <LinearLayout
+                    android:background="@drawable/oval"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp">
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:background="@drawable/oval"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginRight="25dp"
+
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="25dp"></LinearLayout>
+
+
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="160dp"
+                android:layout_height="72dp"
+                android:background="#FFCC66"
+                >
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="24dp">
+
+                <TextView
+                    android:textColor="@color/transparent_background"
+                     android:gravity="center"
+                    android:text="周一"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:text="周一"
+                    android:layout_weight="1"
+                    android:id="@+id/week1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:text="周二"
+                    android:layout_weight="1"
+                    android:id="@+id/week2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent" />
+
+            </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:text="周三"
+                        android:layout_weight="1"
+                        android:id="@+id/week3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:textColor="@color/black"
+
+                        android:gravity="center"
+                        android:text="周四"
+                        android:layout_weight="1"
+                        android:id="@+id/week4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+
+                    <TextView
+                        android:textColor="@color/black"
+
+                        android:gravity="center"
+                        android:text="周五"
+                        android:layout_weight="1"
+                        android:id="@+id/week5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp">
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:text="周六"
+                        android:layout_weight="1"
+                        android:id="@+id/week6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:textColor="@color/black"
+
+                        android:gravity="center"
+                        android:text="周日"
+                        android:layout_weight="1"
+                        android:id="@+id/week7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+
+                    <TextView
+                        android:gravity="center"
+                        android:text="周二"
+                        android:textColor="@color/transparent_background"
+                        android:layout_weight="1"
+                        android:id="@+id/yi3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="15dp" />
+    <Button
+        android:background="@drawable/btn_bg_green"
+        android:text="查找"
+        android:id="@+id/find"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

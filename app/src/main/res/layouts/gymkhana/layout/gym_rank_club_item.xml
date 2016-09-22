@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent_background"
+    >
+    <RelativeLayout
+        android:id="@+id/info_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        >
+        <LinearLayout
+            android:gravity="center"
+            android:id="@+id/club_nums"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+        <TextView
+            android:id="@+id/club_num"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="1"
+            android:gravity="center|bottom"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            </TextView>
+    </LinearLayout>
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:id="@+id/club_icon"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/term_sign"
+            android:layout_alignTop="@+id/club_nums"
+            android:layout_toRightOf="@+id/club_nums"
+            android:layout_toEndOf="@+id/club_nums" />
+
+        <TextView
+            android:id="@+id/club_name"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="我爱梅西"
+            android:layout_alignTop="@+id/user_icon"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_alignTop="@+id/club_price"
+            android:layout_toLeftOf="@+id/club_price"
+            android:layout_toStartOf="@+id/club_price">
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@mipmap/money"
+
+            android:layout_alignBottom="@+id/club_price"
+            android:layout_toLeftOf="@+id/club_price"
+            android:layout_toStartOf="@+id/club_price" />
+
+    </LinearLayout>
+        <TextView
+            android:id="@+id/club_price"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="10000"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignTop="@+id/club_title"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

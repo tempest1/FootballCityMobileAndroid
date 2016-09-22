@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 需设置透明-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3">
+    <include layout="@layout/me_title"
+        android:id="@+id/head"/>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_3_grey"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/head"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp">
+
+
+        <ImageView
+            android:src="@drawable/test1"
+            android:id="@+id/image_my"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_me"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="皇家马德里"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:src="@drawable/test1"
+            android:id="@+id/image_yours"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/image_my"
+            android:layout_alignLeft="@+id/tv_your"
+            android:layout_alignStart="@+id/tv_your" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_your"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="皇家马"
+            android:layout_alignTop="@+id/tv_me"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="VS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/time"
+            android:textColor="@color/white"
+
+            android:text="6月1日"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/way"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/ways"
+            android:text="8v8"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/time"
+            android:layout_alignRight="@+id/textView13"
+            android:layout_alignEnd="@+id/textView13" />
+        <TextView
+            android:text="奥克体育场"
+            android:textColor="@color/white"
+
+            android:id="@+id/way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="已结束"
+            android:textColor="@color/white"
+            android:id="@+id/over"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ways"
+            android:layout_alignRight="@+id/time"
+            android:layout_alignEnd="@+id/time" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_3_grey"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout5"
+        android:layout_below="@+id/linearLayout2">
+        <TextView
+            android:id="@+id/me_club"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AC俱乐部成员"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rectangle_normal_gary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/relativeLayout4"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:id="@+id/my_club_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="共21人"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_3_grey"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/relativeLayout6"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/you_club"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="皇家俱乐部成员"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/rectangle_normal_gary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/relativeLayout7"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_alignLeft="@+id/relativeLayout6"
+        android:layout_alignStart="@+id/relativeLayout6">
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:id="@+id/you_club_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="共21人"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+    <Button
+        android:textColor="@color/white"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/btn_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="赛前部署"
+        android:background="@drawable/btn_bg_green"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

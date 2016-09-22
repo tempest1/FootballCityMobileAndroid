@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:id="@+id/main"
+    >
+
+    <include layout="@layout/club_title"
+
+        />
+    <include layout="@layout/activity_main_top_tab"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:visibility="gone"
+        android:id="@+id/id_page_vp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+    <FrameLayout
+
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </FrameLayout>
+
+
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        style="@style/Theme.Transparent"
+        android:layout_gravity="left|bottom"
+        >
+        <RadioButton
+            style="@style/radio_type"
+            android:drawableTop="@drawable/buttom_home"
+            android:text="@string/foot_home"
+            android:id="@+id/radio_home"
+            android:checked="true"
+            />
+
+        <RadioButton
+            style="@style/radio_type"
+            android:drawableTop="@drawable/buttom_info"
+            android:text="@string/foot_info"
+            android:id="@+id/radio_info" />
+        <RadioButton
+            style="@style/radio_type"
+            android:drawableTop="@drawable/buttom_commu"
+            android:text="@string/foot_me"
+            android:id="@+id/radio_me"
+            />
+    </RadioGroup>
+
+
+</LinearLayout>

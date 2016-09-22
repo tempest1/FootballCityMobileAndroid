@@ -1,0 +1,17 @@
+new Key Store
+Password :SmartlabZD
+Confirm:smartlab0917
+Alias: 足球城
+Password: smartlab2015ZD
+Confirm: smartlab-07-15-18:26
+First and Last Name: DriveLicense
+Organizational Unit: smartlab-411
+Organization: Smart
+City or Locality: 荆州
+State or Province : 湖北省
+Country: CN	//中国国家代码
+
+
+-storepass SmartlabZD
+-keypass smartlab2015ZD
+Password: smartlab0917

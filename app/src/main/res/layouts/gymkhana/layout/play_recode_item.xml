@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_background"
+    >
+
+    <RelativeLayout
+        android:orientation="horizontal"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rectangle_3_blue"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+<ImageView
+    android:src="@drawable/test1"
+    android:id="@+id/image_my"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    />
+
+
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/tv_me"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="皇家马德里"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:src="@drawable/test1"
+            android:id="@+id/image_yours"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:textColor="@color/white"
+
+            android:gravity="center"
+            android:id="@+id/tv_your"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="皇家马"
+            android:layout_alignTop="@+id/tv_me"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:textColor="@color/white"
+
+            android:id="@+id/time"
+            android:text="6月1日"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/ways"
+            android:text="8v8"
+            android:textColor="@color/white"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:text="奥克体育场"
+            android:textColor="@color/white"
+            android:id="@+id/way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@drawable/main_menu_btnshape"
+            android:id="@+id/me_point"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/way"
+            android:layout_toEndOf="@+id/way"
+            android:text="3"
+            />
+        <TextView
+            android:background="@drawable/main_menu_btnshape"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/you_point"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/me_point"
+            android:layout_toLeftOf="@+id/way"
+            android:layout_toStartOf="@+id/way"
+            android:text="0"
+
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

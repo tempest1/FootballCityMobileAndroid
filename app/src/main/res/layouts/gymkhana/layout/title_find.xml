@@ -1,0 +1,30 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/title_normal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/find_title"
+    >
+    <Button
+        android:id="@+id/detail_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/back_normal"
+        android:layout_alignParentLeft="true"
+
+        style="@style/title_type"
+        />
+
+    <TextView
+        android:id="@+id/detail_title_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="详情"
+        style="@style/title_type"
+        android:layout_alignBottom="@+id/detail_back"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

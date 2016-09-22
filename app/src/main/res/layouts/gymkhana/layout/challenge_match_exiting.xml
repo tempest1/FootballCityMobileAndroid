@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3"
+
+    >
+    <include layout="@layout/title_normal">
+
+    </include>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:textColor="@color/red"
+            android:textSize="22dp"
+            android:text="对方想放弃这场比赛"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/main_place" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:text="@string/palce"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/main_place"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:text="@string/money"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/text1"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp" />
+        <TextView
+            android:id="@+id/text3"
+            android:text="@string/day"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/text2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp" />
+        <TextView
+            android:id="@+id/text4"
+            android:text="@string/time"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/text3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp" />
+        <TextView
+            android:id="@+id/text5"
+            android:text="@string/way"
+            android:textSize="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/text4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp" />
+
+        <TextView
+
+            android:layout_marginLeft="50dp"
+            android:textSize="16dp"
+            android:id="@+id/place"
+            android:text="奥林皮克东外场"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@+id/text1"
+            android:layout_alignTop="@+id/text1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+
+            android:textSize="16dp"
+            android:id="@+id/money"
+
+            android:text="AA制"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text3"
+            android:layout_alignLeft="@+id/place"
+            android:layout_alignStart="@+id/place"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+
+            android:textSize="16dp"
+            android:id="@+id/days"
+
+            android:text="03/15 周二"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text4"
+            android:layout_alignLeft="@+id/place"
+            android:layout_alignStart="@+id/place"
+
+            android:layout_alignTop="@+id/text3"
+            android:layout_alignRight="@+id/money"
+            android:layout_alignEnd="@+id/money" />
+
+        <TextView
+
+            android:textSize="16dp"
+            android:id="@+id/time"
+
+            android:text="15:00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/text5"
+            android:layout_alignLeft="@+id/place"
+            android:layout_alignStart="@+id/place"
+            android:layout_alignTop="@+id/text4"
+            android:layout_alignRight="@+id/days"
+            android:layout_alignEnd="@+id/days" />
+        <TextView
+            android:id="@+id/way"
+
+            android:textSize="16dp"
+
+            android:text="10人制"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/text5"
+            android:layout_alignLeft="@+id/days"
+            android:layout_alignStart="@+id/days"
+            android:layout_alignRight="@+id/time"
+            android:layout_alignEnd="@+id/time" />
+
+        <Button
+            android:background="@drawable/btn_bg_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="同意"
+            android:id="@+id/accept"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="61dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="60dp" />
+
+        <Button
+            android:background="@drawable/btn_red_rectangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不同意"
+            android:id="@+id/refuse"
+
+            android:layout_alignTop="@+id/accept"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="61dp"
+            android:layout_marginStart="61dp" />
+
+    </RelativeLayout>
+</LinearLayout>

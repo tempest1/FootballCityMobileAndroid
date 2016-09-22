@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3"
+    >
+
+
+    <include layout="@layout/title_normal"></include>
+    <LinearLayout
+        android:paddingLeft="10dp"
+        android:background="@drawable/llayout_search"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <EditText
+            android:id="@+id/clubname"
+            android:textColorHint="@color/white"
+            android:background="@null"
+            android:drawableLeft="@mipmap/sousuo"
+            android:drawablePadding="10dp"
+            android:hint="俱乐部名称"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+        <TextView
+            android:id="@+id/find"
+            android:textColor="@color/white"
+            android:background="#40E0D0"
+            android:gravity="center"
+            android:text="搜索"
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

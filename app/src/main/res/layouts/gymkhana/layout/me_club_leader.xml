@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transparent_background"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_gray"
+        android:layout_marginTop="15dp"
+
+        >
+
+        <TextView
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:text="我创建的俱乐部"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/club_name"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+        <TextView
+            android:id="@+id/number"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:text="20人"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/image"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:layout_marginTop="30dp"
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/club_name"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/Theme.Transparent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="0dp">
+            <Button
+                style="@style/radio_type"
+                android:drawableTop="@drawable/buttom_home"
+                android:text="赛事纪录"
+                android:id="@+id/btn_play_record"
+                android:checked="true"
+                />
+
+            <Button
+                style="@style/radio_type"
+                android:drawableTop="@drawable/buttom_commu"
+                android:text="管理"
+                android:id="@+id/btn_manage"
+                />
+
+            <Button
+                style="@style/radio_type"
+                android:drawableTop="@drawable/buttom_info"
+                android:text="成员"
+                android:id="@+id/btn_number"
+                android:checked="false" />
+            <Button
+                style="@style/radio_type"
+                android:drawableTop="@drawable/buttom_commu"
+                android:text="信息"
+                android:id="@+id/btn_commuicate"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

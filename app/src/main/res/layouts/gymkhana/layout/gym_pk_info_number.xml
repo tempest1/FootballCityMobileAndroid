@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--这个有些问题-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle_green_nopadding"
+
+    >
+
+    <include layout="@layout/activity_main_top_tab"
+        ></include>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_playway"
+
+        >
+        <RelativeLayout
+            android:background="@drawable/oval_blue"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="43dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+            <android.support.v4.view.ViewPager
+                android:background="@drawable/oval_green"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/id_page_vp"
+                >
+
+            </android.support.v4.view.ViewPager>
+
+
+
+            <ImageView
+                android:src="@mipmap/jperv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/id_page_vp"
+                android:layout_alignStart="@+id/id_page_vp"
+                android:id="@+id/imageView3" />
+
+            <ImageView
+                android:src="@mipmap/jnext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView3"
+                android:layout_alignRight="@+id/id_page_vp"
+                android:layout_alignEnd="@+id/id_page_vp" />
+            <LinearLayout
+                android:visibility="invisible"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignBottom="@+id/id_page_vp"
+                android:layout_centerHorizontal="true">
+
+                <View
+                    android:id="@+id/v_dot0"
+                    style="@style/dot_style"
+                    />
+
+                <View
+                    android:id="@+id/v_dot1"
+                    style="@style/dot_style"
+                    />
+
+                <View
+                    android:id="@+id/v_dot2"
+                    style="@style/dot_style"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3"
+    >
+
+    <include layout="@layout/title_normal"
+        android:id="@+id/include5"></include>
+    <include layout="@layout/activity_main_top_tab"
+        />
+
+    <FrameLayout
+        android:background="@drawable/rectangle_gray_sw"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/main_frame"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/include5">
+
+    </FrameLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:background="@drawable/btn_bg_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一步"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp" />
+
+
+</RelativeLayout>

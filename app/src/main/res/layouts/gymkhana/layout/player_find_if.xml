@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3"
+    >
+    <include layout="@layout/title_normal"></include>
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        style="@style/Theme.Transparent"
+        android:layout_gravity="left|bottom"
+        >
+        <RadioButton
+            style="@style/radio_type"
+            android:text="年龄区间"
+            android:id="@+id/radio_age"
+            android:checked="true"
+            android:drawableBottom="@mipmap/head"
+
+            />
+
+        <RadioButton
+            android:drawableBottom="@mipmap/agenull"
+
+            style="@style/radio_type"
+            android:text="场上位置"
+            android:id="@+id/radio_place" />
+        <RadioButton
+            android:drawableBottom="@mipmap/agenull"
+            style="@style/radio_type"
+            android:text="活动时间"
+            android:id="@+id/radio_time" />
+    </RadioGroup>
+    
+    <LinearLayout
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:id="@+id/main_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:id="@+id/find"
+        android:visibility="invisible"
+        android:text="查找"
+        android:background="@drawable/rectangle_green_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+
+</LinearLayout>

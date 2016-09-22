@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/transparent_background"
+	>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:layout_margin="10dp"
+		android:padding="10dp"
+		android:background="@drawable/rectangle_linegreen"
+		android:layout_marginTop="15dp"
+
+		>
+		<RelativeLayout
+			android:layout_width="200dp"
+			android:layout_height="200dp"
+			android:background="@drawable/main_menu_btnshape"
+			android:layout_marginTop="45dp"
+			android:layout_alignParentTop="true"
+			android:layout_centerHorizontal="true"
+			android:id="@+id/relativeLayout">
+
+			<TextView
+				android:id="@+id/roundBtn"
+				android:text="俱乐部排行"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:background="@drawable/main_menu_btnshape"
+				android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true" />
+			<Button
+				android:layout_centerVertical="true"
+				android:layout_centerHorizontal="true"
+				android:background="@drawable/rectangle"
+				android:text="进入"
+				android:id="@+id/btn_playerinfo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/roundBtn"
+			 />
+
+			</RelativeLayout>
+		<TextView
+			android:textSize="20dp"
+			android:textColor="@color/white"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="期待您俱乐部榜上有名"
+			android:layout_alignParentBottom="true"
+			android:layout_alignLeft="@+id/relativeLayout"
+			android:layout_alignStart="@+id/relativeLayout"
+			android:layout_marginBottom="85dp" />
+	</RelativeLayout>
+	<!--<include-->
+		<!--layout="@layout/dot"-->
+		<!--android:layout_height="wrap_content"-->
+		<!--android:layout_width="wrap_content"-->
+		<!--android:layout_gravity="bottom|center_horizontal"-->
+		<!--android:layout_marginBottom="@dimen/dot_margin_buttom"-->
+		<!--android:gravity="center"/>-->
+
+</LinearLayout>

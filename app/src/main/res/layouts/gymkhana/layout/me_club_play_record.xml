@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3"
+    >
+
+   <include layout="@layout/me_title" ></include>
+    <RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radio_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        style="@style/Theme.Transparent"
+        android:layout_gravity="left|bottom"
+        >
+        <RadioButton
+            style="@style/radio_type"
+            android:text="竞技赛事"
+            android:id="@+id/radio_play"
+            android:checked="true"
+            android:drawableBottom="@drawable/buttom_info"
+
+            />
+
+        <RadioButton
+            android:drawableBottom="@drawable/buttom_info"
+
+            style="@style/radio_type"
+            android:text="普通赛事"
+            android:id="@+id/radio_normal" />
+
+    </RadioGroup>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@mipmap/beijing">
+    <include layout="@layout/title_normal">
+    </include>
+    <include layout="@layout/activity_main_top_tab" />
+    <EditText
+        android:id="@+id/common_phones"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@mipmap/phone"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/loading_shape"
+        android:hint="请输入原手机号"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <EditText
+        android:id="@+id/psd"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@mipmap/phone"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/loading_shape"
+        android:hint="请输入密码"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+    <LinearLayout
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/linearLayout5"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp">
+        <EditText
+            android:id="@+id/common_code"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:maxLength="6"
+            android:background="@drawable/loading_shape"
+            />
+
+        <Button
+            android:id="@+id/req_msg_code"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_width="160dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_request_code"
+            android:padding="@dimen/btn_login_padding"
+            android:text="获取短信验证码"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/next"
+        android:text="下一步"
+        android:background="@drawable/btn_green_rec"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>

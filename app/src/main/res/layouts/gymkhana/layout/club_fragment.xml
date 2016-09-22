@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_club">
+
+    <include layout="@layout/gym_list_title"
+        android:id="@+id/include4"></include>
+
+
+
+    <TextView
+
+        android:textSize="12dp"
+        android:text="匹配请求"
+        android:background="@drawable/rectangle_while"
+        android:id="@+id/pipie"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/include4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp" />
+    <TextView
+
+        android:textSize="10dp"
+        android:text="竞技挑战赛"
+        android:background="@drawable/rectangle_while"
+        android:id="@+id/challeage"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/pipie"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <TextView
+
+        android:textSize="12dp"
+        android:text="竞技pk"
+        android:background="@drawable/rectangle_while"
+        android:id="@+id/pk"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_below="@+id/include4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+
+        android:textSize="12dp"
+        android:text="找俱乐部"
+        android:background="@drawable/rectangle_while"
+        android:id="@+id/findclub"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/pk"
+        android:layout_alignLeft="@+id/pk"
+        android:layout_alignStart="@+id/pk" />
+
+    <TextView
+
+        android:textSize="12dp"
+        android:text="我的俱乐部"
+        android:background="@drawable/rectangle_while"
+        android:id="@+id/myclub"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/findclub"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+
+    <TextView
+
+    android:textSize="12dp"
+    android:text="找球员"
+    android:background="@drawable/rectangle_while"
+    android:id="@+id/findplayer"
+    android:layout_width="70dp"
+    android:layout_height="80dp"
+    android:layout_alignTop="@+id/findclub"
+    android:layout_alignLeft="@+id/myclub"
+    android:layout_alignStart="@+id/myclub" />
+    <TextView
+
+        android:textSize="12dp"
+        android:text="消息"
+        android:background="@drawable/rectangle_while"
+        android:id="@+id/message"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/findplayer"
+        android:layout_alignLeft="@+id/findplayer"
+        android:layout_alignStart="@+id/findplayer"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+
+        android:textSize="12dp"
+        android:text="普通比赛"
+        android:background="@drawable/rectangle_while"
+        android:id="@+id/play"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+
+        android:layout_marginLeft="120dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="380dp"/>
+
+
+</RelativeLayout>

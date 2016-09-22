@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/me_title"></include>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_horizontal_margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+
+            <RelativeLayout
+                android:id="@+id/choose_layout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/login_edit_padding">
+                <TextView
+                    android:text="评价"
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/login_edit_padding"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    />
+                <RadioGroup
+                    android:id="@+id/choose_radio"
+                    android:layout_below="@+id/title"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/login_edit_padding"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:paddingBottom="@dimen/login_edit_padding">
+                    <RadioButton
+                        android:id="@+id/grade_one"
+                        android:checked="true"
+                        android:text="好"
+                        style="@style/test_on"
+                        />
+                    <RadioButton
+                        android:id="@+id/grade_two"
+                        android:text="很好"
+                        style="@style/test_on" />
+                    <RadioButton
+                        android:id="@+id/grade_three"
+                        android:text="一般"
+                        style="@style/test_on" />
+                </RadioGroup>
+
+            </RelativeLayout>
+            <com.footballcitymobileandroid.BLL.Util.CustomView.EmoticonsEditText
+                android:id="@+id/edit"
+                android:layout_below="@+id/choose_layout"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:background="@color/white"
+                android:layout_marginTop="@dimen/login_edit_padding"
+                android:hint="126"
+                android:textSize="12sp"
+                android:padding="@dimen/login_edit_padding"
+                android:gravity="start|top"
+                />
+            <View
+                android:layout_below="@+id/edit"
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/gray"
+                />
+            <Button
+                android:layout_below="@+id/line"
+                android:id="@+id/btn_send"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="提交"
+                android:layout_margin="@dimen/login_edit_padding"
+                android:background="@drawable/btn_bg_green"
+                />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+
+                    android:id="@+id/iamge1"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/test1"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/door_name1"
+                    android:text="梅西"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+                    android:id="@+id/iamge2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/test1"
+                    />
+
+                <TextView
+                    android:gravity="center"
+
+                    android:id="@+id/door_name2"
+                    android:text="梅西"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+                    android:id="@+id/iamge3"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/test1"
+                    />
+
+                <TextView
+                    android:gravity="center"
+
+                    android:id="@+id/door_name3"
+                    android:text="梅西"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+                    android:id="@+id/iamge4"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/test1"
+                    />
+
+                <TextView
+                    android:gravity="center"
+
+                    android:id="@+id/door_name4"
+                    android:text="梅西"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+                    android:id="@+id/iamge5"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/test1"
+                    />
+
+                <TextView
+                    android:gravity="center"
+
+                    android:id="@+id/door_name5"
+                    android:text="梅西"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/test1"
+                    android:id="@+id/iamge6"
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/door_name6"
+                    android:text="梅西"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+</LinearLayout>

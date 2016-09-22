@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 需设置透明-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3">
+    <include layout="@layout/title_normal"
+        android:id="@+id/head"/>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_3_grey"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/head"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp">
+
+
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:src="@drawable/test1"
+            android:id="@+id/image_my"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_me"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="皇家马德里"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:src="@drawable/test1"
+            android:id="@+id/image_yours"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/image_my"
+            android:layout_alignLeft="@+id/tv_your"
+            android:layout_alignStart="@+id/tv_your" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_your"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="皇家马"
+            android:layout_alignTop="@+id/tv_me"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:text="VS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/time"
+            android:textColor="@color/white"
+
+            android:text="6月1日"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/way"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/ways"
+            android:text="8v8"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/time"
+            android:layout_alignRight="@+id/textView13"
+            android:layout_alignEnd="@+id/textView13" />
+        <TextView
+            android:text="奥克体育场"
+            android:textColor="@color/white"
+
+            android:id="@+id/way"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView13"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="已结束"
+            android:textColor="@color/white"
+            android:id="@+id/over"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ways"
+            android:layout_alignRight="@+id/time"
+            android:layout_alignEnd="@+id/time" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@drawable/rectangle_normal_gary"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:id="@+id/relativeLayout3">
+        <TextView
+
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="我方进球数"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView14" />
+        <TextView
+            android:background="@drawable/rectangle_point"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:id="@+id/me_point"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_alignTop="@+id/textView16"
+            android:layout_toLeftOf="@+id/textView16"
+            android:layout_toStartOf="@+id/textView16" />
+
+        <TextView
+            android:text=":"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView16"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:background="@drawable/rectangle_point"
+            android:id="@+id/you_point"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView16"
+            android:layout_toEndOf="@+id/textView16"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:text="我方进球数"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView15" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_3_grey"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout5">
+        <TextView
+            android:id="@+id/me_club"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AC俱乐部成员"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/rectangle_normal_gary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/relativeLayout4"
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:id="@+id/me_iamge1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/personhead"
+            />
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:layout_marginLeft="5dp"
+            android:id="@+id/me_iamge2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/personhead"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/me_iamge1"
+            android:layout_toEndOf="@+id/me_iamge1" />
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:layout_marginLeft="5dp"
+            android:id="@+id/me_iamge3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/personhead"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/me_iamge2"
+            android:layout_toEndOf="@+id/me_iamge2" />
+
+        <TextView
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:id="@+id/my_club_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="共21人"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/rectangle_3_grey"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/relativeLayout6"
+        android:layout_below="@+id/relativeLayout4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/you_club"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="皇家俱乐部成员"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@drawable/rectangle_normal_gary"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/relativeLayout7"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_alignLeft="@+id/relativeLayout6"
+        android:layout_alignStart="@+id/relativeLayout6">
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:id="@+id/you_iamge1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/personhead"
+            />
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:layout_marginLeft="5dp"
+            android:id="@+id/you_iamge2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/personhead"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/you_iamge1"
+            android:layout_toEndOf="@+id/you_iamge1" />
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:layout_marginLeft="5dp"
+            android:id="@+id/you_iamge3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/personhead"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/you_iamge2"
+            android:layout_toEndOf="@+id/you_iamge2" />
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:id="@+id/you_club_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="共21人"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+</RelativeLayout>

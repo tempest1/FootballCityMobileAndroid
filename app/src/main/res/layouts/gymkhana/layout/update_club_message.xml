@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3"
+    >
+
+    <include layout="@layout/me_title"></include>
+    <include layout="@layout/activity_main_top_tab"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_gray"
+        android:layout_marginTop="15dp"
+
+        >
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:background="@drawable/rectangle_3_red"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/l1">
+
+            <TextView
+
+                android:textColor="@color/white"
+                android:text="平均年龄"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView23" />
+
+            <EditText
+                style="@style/EditPiont"
+                android:text="3"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/editText" />
+            <EditText
+                style="@style/EditPiont"
+
+                android:text="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rectangle_while_sw"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/editText"
+                android:layout_toEndOf="@+id/editText" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:orientation="horizontal"
+
+            android:background="@drawable/rectangle_3_green"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="35dp"
+            android:id="@+id/linearLayout2"
+            android:layout_below="@+id/l1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+            <TextView
+
+                android:textColor="@color/white"
+                android:text="成立时间"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView24" />
+
+            <Spinner
+                android:background="@drawable/rectangle_while_spr"
+                android:drawableLeft="@mipmap/xia"
+                android:layout_marginLeft="30dp"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:id="@+id/year"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textView24"
+                android:layout_toEndOf="@+id/textView24" />
+            <Spinner
+                android:background="@drawable/rectangle_while_spr"
+                android:drawableLeft="@mipmap/xia"
+
+                android:layout_marginLeft="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/month"
+                android:layout_alignTop="@+id/year"
+                android:layout_toRightOf="@+id/year"
+                android:layout_toEndOf="@+id/year" />
+            <Spinner
+                android:drawableLeft="@mipmap/xia"
+
+                android:background="@drawable/rectangle_while_spr"
+                android:layout_marginLeft="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:id="@+id/day"
+                android:layout_alignTop="@+id/month"
+                android:layout_toRightOf="@+id/month" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:orientation="horizontal"
+
+            android:background="@drawable/rectangle_3_blue"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="35dp"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true">
+
+            <TextView
+
+                android:textColor="@color/white"
+                android:text="所属地区"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView26" />
+
+            <TextView
+
+                android:textSize="20dp"
+                android:textColor="@color/blue"
+                android:gravity="center"
+                android:background="@drawable/rectangle_while_spr"
+                android:text="中国大连"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/textView26"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="67dp"
+                android:layout_marginEnd="67dp" />
+
+        </RelativeLayout>
+
+        <include
+            android:visibility="invisible"
+
+            layout="@layout/me_dot"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/include3" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+
+</LinearLayout>

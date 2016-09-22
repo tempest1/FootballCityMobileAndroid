@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_gymss"
+
+    >
+    <!--android:background="@color/transparent_background"-->
+
+
+    <TextView
+        android:gravity="center"
+        android:text="赛季"
+        android:id="@+id/seas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp" />
+    <Button
+        android:textColor="@color/black"
+        android:alpha="100"
+        android:text="排行榜"
+        android:background="@mipmap/ball"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginStart="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="195dp"
+        android:id="@+id/rank"
+        />
+
+    <Button
+        android:textColor="@color/black"
+        android:text="挑战"
+        android:background="@mipmap/ball"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="178dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/challeage"
+
+        />
+
+    <Button
+        android:textColor="@color/black"
+        android:text="规则"
+        android:background="@mipmap/ball"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="87dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="135dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/rlue"
+        />
+
+</RelativeLayout>

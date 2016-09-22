@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--这个有些问题-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rectangle_pageview"
+
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <ImageView
+            android:src="@drawable/test1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:id="@+id/image_my_club"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp" />
+
+        <ImageView
+            android:src="@drawable/test1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/image_my_club"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp"
+            android:id="@+id/image_you_club" />
+
+        <TextView
+            android:text="发起挑战"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_my_club"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:id="@+id/textView4" />
+        <TextView
+            android:text="6月1日 8v8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image_my_club"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+            />
+
+
+        <TextView
+            android:gravity="center"
+            android:text="皇家马德里"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_club_name"
+            android:layout_below="@+id/image_my_club"
+            android:layout_alignLeft="@+id/image_my_club"
+            android:layout_alignStart="@+id/image_my_club"
+            android:layout_marginTop="35dp"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:text="皇家马德里"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/you_club_name"
+            android:layout_alignTop="@+id/my_club_name"
+            android:layout_alignLeft="@+id/image_you_club"
+            android:layout_alignStart="@+id/image_you_club" />
+
+
+        <Button
+            android:background="@drawable/btn_white_rectangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发送中"
+            android:layout_marginBottom="53dp"
+            android:id="@+id/button"
+            android:layout_above="@+id/include2"
+            android:layout_centerHorizontal="true" />
+
+        <include layout="@layout/dot"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/include2"></include>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

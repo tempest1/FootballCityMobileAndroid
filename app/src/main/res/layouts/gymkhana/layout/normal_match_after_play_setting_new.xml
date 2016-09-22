@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_footplace"
+    >
+
+    <TextView
+        android:textColor="@color/white"
+        android:text="场上队员"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number1"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_below="@+id/textView21"
+        android:layout_alignLeft="@+id/textView21"
+        android:layout_alignStart="@+id/textView21">
+
+    </Button>
+
+
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number2"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number1"
+        android:layout_toRightOf="@+id/number1"
+        android:layout_toEndOf="@+id/number1">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number3"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number2"
+        android:layout_toRightOf="@+id/number2"
+        android:layout_toEndOf="@+id/number2">
+
+    </Button>
+
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number4"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number3"
+        android:layout_toRightOf="@+id/number3"
+        android:layout_toEndOf="@+id/number3">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number5"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number4"
+        android:layout_toRightOf="@+id/number4"
+        android:layout_toEndOf="@+id/number4">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number6"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number5"
+        android:layout_toRightOf="@+id/number5"
+        android:layout_toEndOf="@+id/number5">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number7"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number6"
+        android:layout_toRightOf="@+id/number6"
+        android:layout_toEndOf="@+id/number6">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number8"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number7"
+        android:layout_toRightOf="@+id/number7"
+        android:layout_toEndOf="@+id/number7">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number9"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_below="@+id/number1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number10"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number9"
+        android:layout_toRightOf="@+id/number9"
+        android:layout_toEndOf="@+id/number9">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number11"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number9"
+        android:layout_toLeftOf="@+id/number4"
+        android:layout_toStartOf="@+id/number4">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number12"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number11"
+        android:layout_toRightOf="@+id/number11"
+        android:layout_toEndOf="@+id/number11">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number13"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_alignTop="@+id/number14"
+        android:layout_toLeftOf="@+id/number14"
+        android:layout_toStartOf="@+id/number14">
+
+    </Button>
+    <Button
+        android:gravity="center"
+        android:background="@null"
+        android:orientation="vertical"
+        android:id="@+id/number14"
+        android:drawableTop="@mipmap/personhead"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:text="梅西"
+        android:layout_below="@+id/number6"
+        android:layout_alignLeft="@+id/number6"
+        android:layout_alignStart="@+id/number6">
+
+    </Button>
+
+    <Button
+        android:textColor="@color/white"
+        android:text="确认部署"
+        android:background="@drawable/btn_bule"
+        android:id="@+id/sure"
+        android:layout_width="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

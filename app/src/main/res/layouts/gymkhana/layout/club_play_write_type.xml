@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transparent_background"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_gray"
+        android:layout_marginTop="15dp"
+
+        >
+
+
+       <TextView
+
+           android:background="@color/transparent_red"
+           android:layout_width="20dp"
+           android:layout_height="40dp"
+           android:layout_marginLeft="38dp"
+           android:layout_marginStart="38dp"
+           android:layout_marginTop="89dp"
+           android:id="@+id/type1"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:id="@+id/type3"
+            android:layout_marginTop="20dp"
+            android:background="@color/transparent_while"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/type2"
+            android:layout_alignLeft="@+id/type2"
+            android:layout_alignStart="@+id/type2" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+
+            android:background="@color/transparent_while"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:id="@+id/type2"
+            android:layout_below="@+id/type1"
+            android:layout_alignLeft="@+id/type1"
+            android:layout_alignStart="@+id/type1" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="未开始"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/type1"
+            android:layout_toRightOf="@+id/type1"
+            android:layout_toEndOf="@+id/type1"
+            android:id="@+id/textView11" />
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="已开始"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_above="@+id/type3"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_alignStart="@+id/textView20" />
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="已结束"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignTop="@+id/type3"
+            android:layout_alignLeft="@+id/textView11"
+            android:layout_alignStart="@+id/textView11"
+            android:id="@+id/textView20" />
+    </RelativeLayout>
+
+</LinearLayout>

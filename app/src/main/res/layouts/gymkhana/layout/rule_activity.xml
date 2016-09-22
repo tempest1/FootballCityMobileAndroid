@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3"
+    >
+    <include layout="@layout/title_normal">
+
+    </include>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_gray"
+        android:layout_marginTop="15dp"
+
+        >
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/info_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="奥克竞技场"
+            android:textSize="20dp"
+
+            />
+
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="16dp"
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      规则有以下数条:"
+            android:lineSpacingExtra="5dp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rectangle_gray"
+        android:layout_marginTop="15dp"
+
+        >
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:src="@mipmap/term_sign"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70dp"
+            android:id="@+id/image_my_club"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp" />
+
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:src="@mipmap/term_sign"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/image_my_club"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp"
+            android:id="@+id/image_you_club" />
+
+
+
+
+        <TextView
+            android:text="6月1日"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:layout_alignBottom="@+id/image_you_club"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:text="8v8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/way"
+            android:layout_above="@+id/time"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:text="奥克体育场"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/place"
+            android:layout_below="@+id/time"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:text="待开始"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/type"
+            android:layout_alignTop="@+id/my_club_name"
+            android:layout_centerHorizontal="true"
+             />
+        <TextView
+            android:gravity="center"
+            android:text="皇家马德里"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_club_name"
+            android:layout_below="@+id/image_my_club"
+            android:layout_alignLeft="@+id/image_my_club"
+            android:layout_alignStart="@+id/image_my_club"
+            android:layout_marginTop="35dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="皇家马德里"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/you_club_name"
+            android:layout_alignTop="@+id/my_club_name"
+            android:layout_alignLeft="@+id/image_you_club"
+            android:layout_alignStart="@+id/image_you_club" />
+
+
+        <Button
+            android:background="@drawable/btn_bule"
+            android:id="@+id/btn_sign"
+            android:text="签到"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:background="@mipmap/write"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/btn" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

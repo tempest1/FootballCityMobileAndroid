@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="all"
+    package="com.footballcitymobileandroid">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <application
+        android:name=".Controller.Base.MainApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:launchMode="singleTask"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:replace="android:label,android:icon,android:allowBackup,android:name">
+        <activity android:name=".Controller.TextActivity.MePostText.MainActivity">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <!--接口测试配置不要删了-->
+        <activity android:name=".Controller.TextActivity.MePostText.UserLogin">
+        </activity>
+        <activity android:name=".Controller.TextActivity.MePostText.UserQueryMyself">
+        </activity>
+        <activity android:name=".Controller.TextActivity.MePostText.GetUserCode">
+        </activity>
+        <activity android:name=".Controller.TextActivity.MePostText.UserExit">
+        </activity>
+        <activity android:name=".Controller.TextActivity.MePostText.UserGetConfig">
+        </activity>
+        <activity android:name=".Controller.TextActivity.MePostText.UserModifyMyself">
+        </activity>
+        <activity android:name=".Controller.TextActivity.MePostText.UserModifyPhone">
+        </activity>
+        <activity android:name=".Controller.TextActivity.MePostText.UserModifyPwd">
+        </activity>
+        <activity android:name=".Controller.TextActivity.MePostText.UserReg">
+        </activity>
+
+        <activity android:name=".Controller.Me.MeMyInfo"></activity>
+        <activity android:name=".Controller.Base.FristActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Controller.Base.MainActivity"> 
+            <!--<intent-filter> -->
+            <!--<action android:name="android.intent.action.MAIN" />  -->
+            <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+            <!--</intent-filter>-->
+             
+        </activity>
+        <activity android:name=".Controller.Base.MainContent"
+            android:screenOrientation="portrait"
+            >
+
+        </activity>
+
+        <activity android:name=".Controller.Common.CommonLogin">//登录
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".Controller.Common.CommonGetMessage">
+
+        </activity>
+        <activity android:name=".Controller.Common.CommonRegister">
+
+        </activity>
+
+        <activity android:name=".Controller.Common.CommonSetPassword">
+
+        </activity>
+
+        <activity android:name=".Controller.Common.CommonForget">
+
+        </activity>
+
+        <activity android:name=".Controller.Common.CommonForgetGetMessage">
+
+        </activity>
+        <activity android:name=".Controller.Common.CommonForgetSetPassword">
+
+        </activity>
+        <activity android:name=".Controller.Me.MeInfo">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.RankClub">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.PlayerPirce">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.MeLeaderSet">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.GymPkInfo">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.GymPkRankClub">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.GymPkClub">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.GymPkDeal">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.SettingClub">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.MeSetting">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.MeUpdate">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.MeClub">
+            <!--<intent-filter> -->
+            <!--<action android:name="android.intent.action.MAIN" />  -->
+            <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".Controller.Club.MeClubPlayRecord">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.MeCreateClub">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.MePlayerRecord">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ClubFind">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ClubPlayWrite">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.MeClubLeaderChange">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.MeClubRemoveNumber">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ClubFindIf">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ClubFindNormal">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.MeInvest">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.MeInvestment">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ClubFindMessage">
+
+        </activity>
+        <activity android:name=".Controller.Club.ClubFindList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.PlayerFind">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ClubChange">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.MeClubNumbersList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.MeClubNumberInfo">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.PlayerFindNomal">
+
+        </activity>
+        <activity android:name=".Controller.Club.ClubNumberList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.PlayerFindIf">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalMathMeun">
+            <!--<intent-filter> -->
+            <!--<action android:name="android.intent.action.MAIN" />  -->
+            <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+            <!--</intent-filter>-->
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalMathClubList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalMacthInfoList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalMatchInfoDeal">
+
+        </activity>
+
+
+        <activity android:name=".Controller.Club.ChallenagelMatchWriteEnd">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalMatchSignNumberList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalMatchAfterPlaySetting">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ClubChallengeList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.UpdateClub">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.UpdateClubImage">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.UpdateClubGreat">
+
+        </activity>
+        <activity android:name=".Controller.Club.UpdateClubMessage">
+
+        </activity>
+        <activity android:name=".Controller.Club.UpdateClubName">
+
+        </activity>
+        <activity android:name=".Controller.Club.UpdateClubTime">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.MeClubList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeMatchMeun">
+            <!--<intent-filter> -->
+            <!--<action android:name="android.intent.action.MAIN" />  -->
+            <!--<category android:name="android.intent.category.LAUNCHER" /> -->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".Controller.Club.ChallengeAlreadyMatchList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeAlreadyInfoDeal">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeUselnessMatchList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengDoingMatchList">
+
+        </activity>
+        <activity android:name=".Controller.Club.ChallengeEndMatchList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeMatchEndMeun">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeEndMatchInfoMessage">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeEvaluate">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeCompain">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeMatchStratedMeun">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeStartedMatchInfo">
+
+        </activity>
+        <activity android:name=".Controller.Me.MeMyInfo">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.MeClubNumberList">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.MeClubNumberListInfo">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.PkActivity">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.RuleActivity">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.RankActivity">
+
+        </activity>
+        <activity android:name=".Controller.Club.ClubMessage">
+
+        </activity>
+
+        <activity android:name=".Controller.Me.ChangePhone">
+
+        </activity>
+        <activity android:name=".Controller.Me.MeCreateClub2">
+
+        </activity>
+        <activity android:name=".Controller.Me.ChangePhone2">
+
+        </activity>
+        <activity android:name=".Controller.Club.NormalMatchSigns">
+
+        </activity>
+        <activity android:name=".Controller.Gymkhana.GymPkDealNew">
+
+        </activity>
+        <activity android:name=".Controller.Club.ClubNumberMeun">
+
+        </activity>
+        <activity android:name=".Controller.Club.ClubNumberPlace">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ClubNumberPlaceChoose">
+
+        </activity>
+
+        <activity android:name=".Controller.Gymkhana.GymPkRelNumber">
+
+        </activity>
+        <activity android:name=".Controller.Club.NormalMatchAfterPlaySettingNew">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalMatchReStartSet">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeStartedMatchInfoNew">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeEndMatchInfo">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeEndMatchInfoGreatNumber">
+
+        </activity>
+        <activity android:name=".Controller.Club.Chatting">
+
+        </activity>
+
+
+        <activity android:name=".Controller.Club.ClubRecords">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalMatchInfo">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalMatchInfoDeal">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.NormalStartedMatchInfo">
+
+        </activity>
+        <activity android:name=".Controller.Club.NormalEndMatchInfo">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.MyClubMessage">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ClubInvest">
+
+        </activity>
+        <activity android:name=".Controller.Club.ClubInvestment">
+
+        </activity>
+        <activity android:name=".Controller.Club.NormalMatchWriteEnd">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallenageMatchReStartSet">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ApplyBack">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeMatchSigns">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeMatchSignNumberList">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeMatchAfterPlaySettingNew">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeExitMatch">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeExitMatchInfo">
+
+        </activity>
+        <activity android:name=".Controller.Club.ChallengeExitingMatch">
+
+        </activity>
+
+        <activity android:name=".Controller.Club.ChallengeEndMatchSetName">
+
+        </activity>
+
+        <activity android:name=".Controller.Common.CommonReSet">
+
+        </activity>
+
+        <activity android:name=".Controller.Common.CommonReSetPassword"></activity>
+
+        <activity
+            android:name="com.alibaba.mobileim.ui.WxChattingActvity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Aliwx_ChattingDetailStyle_default"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.alibaba.mobileim.ui.WxConversationActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Aliwx_ConverationStyle_default" />
+        <activity
+            android:name="com.alibaba.mobileim.ui.chat.MultiImageActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="sensor"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.alibaba.mobileim.ui.multi.lightservice.MultiPickGalleryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Aliwx_ConverationStyle_default" />
+
+        <service
+            android:name="com.alibaba.mobileim.appmonitor.tiptool.TooltipService"
+            android:exported="false" />
+        <service
+            android:name="com.alibaba.tcms.service.TCMSService"
+            android:exported="true"
+            android:process=":TcmsService" />
+        <!-- 用于接收从TCMSService发送的命令 -->
+        <service
+            android:name="com.alibaba.tcms.service.ListenerService"
+            android:exported="true" />
+
+        <activity
+            android:name=".alibaba.openIMUIDemo.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter-->>
+        </activity>
+
+        <activity
+            android:name=".openimui.demo.FragmentTabs"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:theme="@style/MainActivityTheme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".openimui.common.SimpleWebViewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainTabStyle" />
+        <activity
+            android:name=".openimui.sample.ChattingFragmentSample"
+            android:configChanges="keyboardHidden|orientation"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:screenOrientation="portrait" />
+        <!--<activity
+            android:name=".openimui.sample.ExpandableContactsActivitySample"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Aliwx_ConverationStyle_default" />-->
+        <activity
+            android:name=".openimui.test.MultiAccountTestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/Aliwx_ConverationStyle_default" />
+        <!-- @消息相关 -->
+        <activity
+            android:name="com.alibaba.mobileim.ui.atmessage.AtMsgListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Aliwx_ConverationStyle_default" />
+        <activity
+            android:name="com.alibaba.mobileim.ui.atmessage.SendAtMessageDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/Aliwx_ConverationStyle_default" />
+        <activity
+            android:name="com.alibaba.mobileim.kit.chat.SelectTribeMemberActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".openimui.test.TestActivity1" />
+        <activity android:name=".openimui.test.TestActivity2" />
+        <activity
+            android:name=".openimui.tribe.TribeMembersActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".openimui.tribe.TribeInfoActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".openimui.tribe.SearchTribeActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".openimui.tribe.EditTribeInfoActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".openimui.tribe.InviteTribeMemberActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".openimui.tribe.TribeSystemMessageActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".openimui.contact.ContactSystemMessageActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default" />
+        <activity
+            android:name=".openimui.contact.FindContactActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default" />
+        <activity
+            android:name=".openimui.tribe.EditMyTribeProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Aliwx_ContentOverlay_default" />
+        <activity
+            android:name=".openimui.sample.SelectContactToSendCardActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".openimui.tribe.TribePersonalSettingActivity"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".openimui.sample.ContactSettingActivity"
+            android:label="@string/title_activity_contact_setting"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".openimui.sample.TribeMsgRecTypeSetActivity"
+            android:label="@string/title_activity_tribe_msg_rec_type_set"
+            android:theme="@style/Aliwx_ContentOverlay_default"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".openimui.privateimage.PreviewImageActivity"/>
+
+        <activity android:name=".openimui.privateimage.PictureActivity"
+            android:theme="@style/Aliwx_Theme.Translucent" />
+
+        <service
+            android:name=".BLL.Util.Updata.DownloadService"
+            android:enabled="true"
+            android:exported="true" />
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        android:layout_margin="5dp"
+        android:background="@drawable/rectangle_gray_sw"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+
+        <com.footballcitymobileandroid.BLL.Util.CustomView.PieView
+            android:id="@+id/pv"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/seasa"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="奥克竞技场 16/02-04 赛季"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seasa" />
+
+
+        <TextView
+            android:layout_marginLeft="59dp"
+            android:background="@mipmap/chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView29"
+            android:layout_marginStart="59dp"
+            android:layout_below="@+id/seasa"
+            android:layout_toRightOf="@+id/pv"
+            android:layout_toEndOf="@+id/pv"
+            android:layout_marginTop="18dp" />
+        <TextView
+            android:text="声价"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView30"
+            android:layout_alignBottom="@+id/textView29"
+            android:layout_toRightOf="@+id/textView29"
+            android:layout_toEndOf="@+id/textView29" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:id="@+id/point"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView30"
+            android:layout_toRightOf="@+id/textView30"
+            android:layout_toEndOf="@+id/textView30" />
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/oval_green"
+            android:id="@+id/textView33"
+            android:layout_below="@+id/textView30"
+            android:layout_alignLeft="@+id/textView29"
+            android:layout_alignStart="@+id/textView29"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:gravity="center"
+            android:text="胜"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView34"
+            android:layout_alignBottom="@+id/textView33"
+            android:layout_alignLeft="@+id/textView30"
+            android:layout_alignStart="@+id/textView30" />
+        <TextView
+            android:id="@+id/win"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView34"
+            android:layout_alignBottom="@+id/textView34"
+            android:layout_alignLeft="@+id/point"
+            android:layout_alignStart="@+id/point" />
+        <TextView
+            android:layout_marginTop="15dp"
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/oval_while"
+            android:id="@+id/textView35"
+            android:layout_below="@+id/textView33"
+            android:layout_alignLeft="@+id/textView33"
+            android:layout_alignStart="@+id/textView33" />
+
+        <TextView
+            android:gravity="center"
+            android:text="平"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView35"
+            android:layout_alignLeft="@+id/textView34"
+            android:layout_alignStart="@+id/textView34"
+            android:layout_alignRight="@+id/textView34"
+            android:layout_alignEnd="@+id/textView34"
+            android:id="@+id/textView36" />
+        <TextView
+            android:id="@+id/equit"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView36"
+            android:layout_alignLeft="@+id/win"
+            android:layout_alignStart="@+id/win" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/oval"
+            android:id="@+id/textView37"
+            android:layout_below="@+id/textView35"
+            android:layout_alignLeft="@+id/textView35"
+            android:layout_alignStart="@+id/textView35" />
+        <TextView
+            android:gravity="center"
+            android:text="负"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView38"
+            android:layout_alignBottom="@+id/textView37"
+            android:layout_alignLeft="@+id/textView36"
+            android:layout_alignStart="@+id/textView36" />
+        <TextView
+            android:id="@+id/fail"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView38"
+            android:layout_alignLeft="@+id/equit"
+            android:layout_alignStart="@+id/equit" />
+
+
+    </RelativeLayout>
+</LinearLayout>

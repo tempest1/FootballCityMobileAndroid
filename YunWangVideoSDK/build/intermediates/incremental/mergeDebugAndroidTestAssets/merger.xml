@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="debug"><source path="/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/assets"/></dataSet><dataSet config="main"><source path="/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/src/androidTest/assets"/><source path="/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/generated/assets/shaders/androidTest/debug"/></dataSet></merger>

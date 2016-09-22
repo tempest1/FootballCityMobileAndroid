@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_recorder_activity_recorder.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_recorder_activity_recorder.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorcer_activity_filter.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorcer_activity_filter.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_recorder_timeline.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_recorder_timeline.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_alert_dialog.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_timeline.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_timeline.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_dialog_layout.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog_item.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_dialog_layout.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_timeline.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_timeline.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_activity_taoplayvideo.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_activity_taoplayvideo.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_view_radio_item.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_view_radio_item.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_activity_taoplayvideo.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_activity_taoplayvideo.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_recorder_activity_playvideo.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_recorder_activity_playvideo.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_uik_circular_progress.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_uik_circular_progress.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog_singlechoice.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog_singlechoice.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_view_radio_item.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_view_radio_item.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_recorder_activity_playvideo.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_recorder_activity_playvideo.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog_multichoice.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog_multichoice.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_recorder_timeline.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_recorder_timeline.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_record_alert_dialog.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_record_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_activity_recorder.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_activity_recorder.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_alert_dialog.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorcer_activity_filter.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorcer_activity_filter.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_record_alert_dialog.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_record_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog_item.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog_item.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_recorder_activity_recorder.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_recorder_activity_recorder.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog_multichoice.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog_multichoice.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/aliwx_sv_select_dialog_singlechoice.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/aliwx_sv_select_dialog_singlechoice.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_activity_recorder.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_activity_recorder.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/res/merged/androidTest/debug/layout/taorecorder_uik_circular_progress.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/YunWangVideoSDK/build/intermediates/bundles/debug/res/layout/taorecorder_uik_circular_progress.xml"
+    }
+]

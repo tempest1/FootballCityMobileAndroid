@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@mipmap/beijing">
+    <include layout="@layout/title_normal">
+    </include>
+    <include layout="@layout/activity_main_top_tab" />
+    <RelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp">
+            <EditText
+                android:singleLine="true"
+                android:inputType="number"
+                android:id="@+id/edit_msg_code"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:maxLength="6"
+                android:background="@drawable/loading_shape"
+                />
+            <Button
+                android:id="@+id/req_msg_code"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_width="160dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_request_code"
+                android:padding="@dimen/btn_login_padding"
+                android:text="获取短信验证码"/>
+        </LinearLayout>
+        <Button
+
+            android:id="@+id/me_register2_send"
+            android:text="下一步"
+            android:background="@drawable/btn_green_rec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:layout_below="@+id/linearLayout5"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</LinearLayout>

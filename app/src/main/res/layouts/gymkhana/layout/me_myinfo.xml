@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing2">
+
+    <include layout="@layout/me_title_myinfo"></include>
+    <include layout="@layout/activity_main_top_tab"
+        />
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rectangle_myinfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="姓名"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="性别"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="出生日期"
+                style="@style/me_myinfo"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="身高"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="体重"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="活动时间"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="活动场地"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="擅长位置"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+            android:text="所属城市"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            style="@style/me_myinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/fc_queryMyself_name"
+                android:text="梅西"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/fc_queryMyself_sex"
+                android:text="男"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/fc_queryMyself_birthday"
+                android:text="1985-1-1"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/fc_queryMyself_height"
+                android:text="182cm"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/fc_queryMyself_weight"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="65"
+                style="@style/me_myinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:text="kg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/fc_queryMyselfatyTime"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/fc_queryMyself_atyField"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="奥克体育场"
+                style="@style/me_myinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/fc_queryMyself_position"
+                android:text="前锋"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/fc_queryMyself_myCity"
+                android:text="中国大连"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                style="@style/me_myinfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+                android:id="@+id/user_images"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginLeft="39dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/include"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

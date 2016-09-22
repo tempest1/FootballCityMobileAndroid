@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 透明的title完成,图片需要改成向下的箭头-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent_background"
+    >
+
+    <TextView
+        android:id="@+id/detail_title_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="俱乐部排行"
+        android:layout_centerInParent="true"
+        style="@style/title_type"
+        />
+
+
+</RelativeLayout>

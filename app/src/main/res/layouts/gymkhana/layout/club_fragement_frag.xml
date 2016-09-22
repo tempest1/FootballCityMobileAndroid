@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/club_new"
+    >
+
+    <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/test1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/image" />
+
+    <TextView
+        android:id="@+id/club"
+        android:singleLine="true"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="皇家马德里"
+        android:layout_alignTop="@+id/image"
+        android:layout_toRightOf="@+id/image"
+        android:layout_toEndOf="@+id/image" />
+
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:background="@mipmap/bg_b"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:id="@+id/linearLayout6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/club">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/black_soild"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:textColor="@color/red"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:text="近期,即将开始未结束"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+
+                android:gravity="center|right"
+                android:textColor="@color/red"
+                android:textSize="10dp"
+                android:text="的一场竞技比赛"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+        <TextView
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/will_time"
+            android:text="02/13 周二 15:40"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+
+            android:text="VS    无敌队"
+            android:id="@+id/will_team"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/will_place"
+            android:text="奥克竞技场"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:background="@mipmap/bg_b"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:id="@+id/linearLayout9"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/linearLayout6">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@drawable/black_soild"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:textColor="@color/red"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:text="近期,即将开始未结束"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+
+                android:gravity="center|right"
+                android:textColor="@color/red"
+                android:textSize="10dp"
+                android:text="的一场竞技比赛"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+        </LinearLayout>
+        <TextView
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/end_time"
+            android:text="02/13 周二 15:40"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+
+            android:text="4:0    无敌队"
+            android:id="@+id/end_team"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/end_place"
+            android:text="奥克竞技场"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:background="@mipmap/ball2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_alignRight="@+id/linearLayout9"
+        android:layout_alignEnd="@+id/linearLayout9"
+        android:id="@+id/textView10" />
+    <TextView
+        android:text="胜"
+        android:id="@+id/win"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginRight="57dp"
+        android:layout_marginEnd="57dp"
+        android:background="@mipmap/red"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/linearLayout9"
+        android:layout_alignRight="@+id/linearLayout9"
+        android:layout_alignEnd="@+id/linearLayout9" />
+
+    <TextView
+        android:text="积分"
+        android:id="@+id/point"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@mipmap/yellow"
+        android:layout_marginRight="55dp"
+        android:layout_marginEnd="57dp"
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/win"
+        android:layout_alignRight="@+id/linearLayout9"
+        android:layout_alignEnd="@+id/linearLayout9" />
+    <TextView
+    android:background="@mipmap/black"
+    android:text="平"
+    android:id="@+id/equit"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:layout_width="70dp"
+    android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignLeft="@+id/linearLayout9"
+        android:layout_alignStart="@+id/linearLayout9" />
+    <TextView
+        android:background="@mipmap/bule"
+        android:text="负"
+        android:id="@+id/fial"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/equit"
+        android:layout_alignRight="@+id/linearLayout9"
+        android:layout_alignEnd="@+id/linearLayout9" />
+
+    <TextView
+        android:background="@mipmap/btn1"
+        android:gravity="center|left"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="24dp"
+        android:id="@+id/club_number"
+        android:text="  我的俱乐部"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:gravity="center"
+        android:text="  竞技挑战"
+        android:background="@mipmap/btn2"
+        android:textSize="24dp"
+        android:id="@+id/pipie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:gravity="center|right"
+        android:background="@mipmap/btn3"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:id="@+id/recode"
+        android:text="普通比赛  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pipie"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:background="@mipmap/btn4"
+        android:gravity="center|left"
+
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:id="@+id/club_message"
+        android:text="  俱乐部消息"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+    <TextView
+        android:layout_marginLeft="20dp"
+
+        android:background="@mipmap/btn5"
+        android:gravity="center|left"
+        android:textSize="20dp"
+        android:id="@+id/club_exchange"
+        android:text="      交流室"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/club_message"
+
+         />
+</RelativeLayout>

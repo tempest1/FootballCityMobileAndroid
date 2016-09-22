@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@mipmap/beijing">
+    <include layout="@layout/me_title_register1">
+    </include>
+    <include layout="@layout/activity_main_top_tab" />
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/me_register2_text"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/edit_rect"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"/>
+        <Button
+
+            android:id="@+id/me_register2_button"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:text="获取验证码"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+        <Button
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/me_register2_send"
+            android:text="提交"
+            android:background="@drawable/btn_green_rec"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:layout_height="40dp"
+
+            android:layout_below="@+id/me_register2_text"
+             />
+    </RelativeLayout>
+
+</LinearLayout>

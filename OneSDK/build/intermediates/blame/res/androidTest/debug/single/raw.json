@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/OneSDK/build/intermediates/res/merged/androidTest/debug/raw/aliwx_itemmatch.xml",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/OneSDK/build/intermediates/bundles/debug/res/raw/aliwx_itemmatch.xml"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/OneSDK/build/intermediates/res/merged/androidTest/debug/raw/aliwx_sent.mp3",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/OneSDK/build/intermediates/bundles/debug/res/raw/aliwx_sent.mp3"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/OneSDK/build/intermediates/res/merged/androidTest/debug/raw/aliwx_itemmatch.xml",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/OneSDK/build/intermediates/bundles/debug/res/raw/aliwx_itemmatch.xml"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/OneSDK/build/intermediates/res/merged/androidTest/debug/raw/aliwx_sent.mp3",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/OneSDK/build/intermediates/bundles/debug/res/raw/aliwx_sent.mp3"
+    },
+    {
+        "merged": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/OneSDK/build/intermediates/res/merged/androidTest/debug/raw/aliwx_play_completed.mp3",
+        "source": "/Users/tianranwang2/Documents/Androidproject/Android_Project_Demo/3/FootballCityMobileAndroid/OneSDK/build/intermediates/bundles/debug/res/raw/aliwx_play_completed.mp3"
+    },
+    {
+        "merged": "/Users/zhoudi/apk/FootballCityMobileAndroid/OneSDK/build/intermediates/res/merged/androidTest/debug/raw/aliwx_play_completed.mp3",
+        "source": "/Users/zhoudi/apk/FootballCityMobileAndroid/OneSDK/build/intermediates/bundles/debug/res/raw/aliwx_play_completed.mp3"
+    }
+]

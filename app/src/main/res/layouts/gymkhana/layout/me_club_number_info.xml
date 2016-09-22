@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@mipmap/beijing3"
+    android:weightSum="1">
+    <include layout="@layout/title_normal">
+    </include>
+    <include layout="@layout/activity_main_top_tab" />
+
+    <RelativeLayout
+        android:background="@color/transparent_gary"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" >
+
+        <RelativeLayout
+            android:background="@mipmap/bg_player"
+            android:layout_width="180dp"
+            android:layout_height="260dp">
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:src="@mipmap/personhead"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/image"
+            android:layout_above="@+id/name"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/way"
+            android:text="前锋"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/image"
+            android:layout_toLeftOf="@+id/image"
+            android:layout_toStartOf="@+id/image" />
+
+        <!--<TextView-->
+            <!--android:id="@+id/name"-->
+            <!--android:text="梅西"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:layout_marginBottom="38dp"-->
+            <!--android:layout_alignBottom="@+id/imageView2"-->
+            <!--android:layout_toRightOf="@+id/place"-->
+            <!--android:layout_toEndOf="@+id/place" />-->
+
+        <TextView
+            android:id="@+id/age"
+            android:text="32岁"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/image"
+            android:layout_toEndOf="@+id/image" />
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/name"
+            android:text="梅西"
+            android:textColor="@color/white"
+
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/age"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp" />
+            </RelativeLayout>
+
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/investment"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_blue"
+        android:text="邀请加盟"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        />
+</LinearLayout>

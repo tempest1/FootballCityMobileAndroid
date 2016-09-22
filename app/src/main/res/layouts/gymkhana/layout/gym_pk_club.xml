@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/beijing3">
+
+    <include layout="@layout/title_normal"></include>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/rectangle_pageview"
+        android:layout_marginTop="15dp"
+
+        >
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/aa"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+
+            />
+    <TextView
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/way"
+        android:text="奥林体育场"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/club_image"
+        android:layout_toLeftOf="@+id/club_image" />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/time"
+            android:text="6月1号 星期一"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/way"
+            android:layout_alignLeft="@+id/way"
+            android:layout_alignStart="@+id/way" />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/play_way"
+            android:text="8v8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time"
+            android:layout_alignLeft="@+id/time"
+            android:layout_alignStart="@+id/time" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/pay_way"
+            android:text="场地主队支付"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/play_way"
+            android:layout_alignLeft="@+id/play_way"
+            android:layout_alignStart="@+id/play_way" />
+
+        <com.footballcitymobileandroid.BLL.Util.CustomView.CircleButton
+            android:id="@+id/club_image"
+            android:src="@drawable/test1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/aa"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="35dp"
+            android:layout_marginEnd="35dp" />
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:text="皇家马德里"
+            android:id="@+id/club_name"
+            android:layout_width="150dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/play_way"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="我要挑战"
+        android:background="@drawable/btn_red_rectangle"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+
+</LinearLayout>

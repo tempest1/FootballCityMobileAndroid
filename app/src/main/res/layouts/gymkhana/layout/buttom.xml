@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/radio_tab"
+    android:background="@drawable/header"
+    android:layout_gravity="bottom">
+
+    <RadioButton
+        style="@style/radio_type"
+        android:drawableTop="@drawable/buttom_home"
+        android:id="@+id/butA"
+        android:text="竞技场"
+        android:checked="true" />
+
+    <RadioButton
+        style="@style/radio_type"
+        android:drawableTop="@drawable/buttom_info"
+        android:id="@+id/butB"
+        android:text="俱乐部"
+        android:checked="false" />
+
+    <RadioButton
+        style="@style/radio_type"
+        android:drawableTop="@drawable/buttom_me"
+        android:id="@+id/butC"
+        android:text="我的"
+        android:checked="false" />
+</RadioGroup>

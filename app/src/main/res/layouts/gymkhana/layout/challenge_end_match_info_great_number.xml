@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/beijing3"
+    >
+    <include layout="@layout/challenge_title">
+
+    </include>
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/rectangle_3"
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <TextView
+            android:textColor="@color/white"
+            android:textSize="24dp"
+            android:text="进球数"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView19" />
+
+
+        <TextView
+            style="@style/EditPiont"
+            android:text="3"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:id="@+id/editText"
+            android:layout_alignRight="@+id/textView19"
+            android:layout_alignEnd="@+id/textView19"
+            android:layout_marginRight="47dp"
+            android:layout_marginEnd="47dp"
+            android:layout_below="@+id/textView19" />
+        <TextView
+            style="@style/EditPiont"
+
+            android:text="1"
+            android:layout_marginLeft="42dp"
+            android:background="@drawable/rectangle_while_sw"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/textView19"
+            android:layout_alignStart="@+id/textView19"
+            android:layout_marginStart="42dp"
+            android:layout_below="@+id/textView19" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/rectangle_2_blue"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:textSize="24dp"
+                android:text="球员评分"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:text="球员评分"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="24dp"
+                android:text="提名最佳"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            </LinearLayout>
+        <include layout="@layout/pull_layout">
+
+        </include>
+
+    </LinearLayout>
+</LinearLayout>
